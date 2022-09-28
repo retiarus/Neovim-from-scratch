@@ -49,7 +49,6 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
   use "moll/vim-bbye"
-  use "nvim-lualine/lualine.nvim"
   use "ahmedkhalf/project.nvim"
   use "lewis6991/impatient.nvim"
   use "lukas-reineke/indent-blankline.nvim"
@@ -57,7 +56,7 @@ return packer.startup(function(use)
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "folke/which-key.nvim"
   use 'christoomey/vim-tmux-navigator'
-  use { 'glepnir/galaxyline.nvim', branch = 'main' }
+  use 'feline-nvim/feline.nvim'
 
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
@@ -104,6 +103,7 @@ return packer.startup(function(use)
 
   -- Debugger
   use 'mfussenegger/nvim-dap'
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
